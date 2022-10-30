@@ -1,0 +1,510 @@
+/* ===== CSS Header Nav ===== */
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    display: block;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f3ff;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar>img{
+    height: 75px;
+    width: 75px;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.nav-menu{
+   display: flex;
+   justify-content: flex-end;
+   list-style-type: none;
+   gap: 32px;
+   margin-top: 25px;
+   margin-right: 136px;
+}
+
+.nav_responsive{
+    display: none;
+}
+
+.ul>li,a{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav_parents, a :hover{
+    color: #0d28a6;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 3;
+    cursor: pointer;
+    list-style-type: none;
+    text-decoration: none;  
+}
+
+a:active{
+    color: #0d28a6;
+}
+
+/* ===== CSS Hero Section ===== */
+
+.hero_section{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+    background-color:#F1F3FF;
+}
+
+.hero_section_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.title_hero_section{
+    font-size: 36px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.body_hero_section{
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.hero_section_left>button{
+    display: inline;
+    width: 140px;
+    height: 36px;
+    background-color: #5cb85f;
+    border-radius: 2px;
+    border: none;
+    color: white;
+    cursor: pointer    
+}
+
+.hero_section_right{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    margin-right: 0px;
+}
+
+
+
+/* ===== CSS Our Services ===== */
+.section-first{
+    width: 100%;
+    height: auto;
+    display: -ms-inline-grid;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section-first-wrapper{
+    width: 1027px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-family: Arial;
+    gap: 300px;
+}
+
+.section-first-img >img{
+    object-fit: cover;
+    width: 459px;
+    height: 428px;
+    margin-left: 206px;
+}
+
+.section-first-title{
+    width: 468px;
+    height: 376px;
+    font-family: Arial;
+    margin-left: 0px;
+}
+
+.section-first-title h2{
+    font-family: Arial;
+    font-size: 24px;
+    margin: 36px 0px 24px;
+    line-height: 36px;
+}
+
+.section-first-title p{
+    font-weight: 700;
+    font-size: 14px;
+    margin: 24px 0px 24px;
+    line-height: 20px;
+}
+
+.section-first-title ul{
+padding: 0;
+}
+
+.section-first-title li{
+    list-style-type: none;
+    display:flex;
+    gap: 16px;
+    justify-items: center;
+    align-items:center;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.section-first-title span{
+    width: 24px;
+    height: 24px;
+    background-color: #cfd4ed;
+    border-radius: 200px;
+    padding-top: 5px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+/* ===== CSS Why Us ===== */
+
+.section_second{
+    width: 100%;
+    height: auto;
+    display: -ms-inline-grid;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section_second_wrapper{
+    width: 1168px;
+    height: auto;
+    /* background-color: #fff; */
+    grid-template-columns: repeat(2, 1fr);
+    font-family: Arial;
+    gap: 86px;
+}
+
+.section_second_wrapper h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px 136px 16px;
+    line-height: 36px;
+}
+
+.section_second_wrapper p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin: 0px 136px 16px;
+}
+
+.section_second_grid {
+    width: 100%;
+    height: 196px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    gap: 24px;
+    margin: 0px 136px 40px;
+}
+
+.section_second_card{
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 268px;
+    height: 196px;
+    
+}
+
+.section_second_card>p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.section_second_card>h3{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.section_second_card>h4{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.section_second_card>h5{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.section_second_card>h6{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+/* ===== CSS Testimony ===== */
+
+.testimonial{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+.testimonial-title>p{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.testimonial-desc>p{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+
+.testimonial-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    margin: 0%;
+    left: -15%;
+}
+
+.testimonial_block_center{
+    border-radius: 8px;
+    width: 619px;
+    height: 270px;
+    background-color: #f1f3ff;
+    display: flex;
+    justify-content: center;
+    margin: auto 10px;
+}
+
+.testimonial_block_side{
+    border-radius: 8px;
+    width: 619px;
+    height: 270px;
+    background-color: #f1f3ff;
+    display: flex;
+    justify-content: center;
+    margin: auto 10px;
+}
+
+.testimonial_photo{
+    margin: auto 20px;
+}
+
+.testimonial_content{
+    margin: auto 20px;
+}
+
+.testimonial_content>img{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.testimonial-massage{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.testimonial-account-name{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.testimonial-arrow{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.testimonial-arrow>button{
+    cursor: pointer;
+    margin: auto 10px;
+    display: -ms-inline-grid;
+    border: none;
+    padding: 0;
+    border-radius: 100%;
+    z-index: 1000000;
+    position: relative;
+}
+
+    
+
+
+
+/* ===== CSS CTA Banner ===== */
+
+.banner{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #0d28a6;
+    border-radius: 13px;
+    width: 1168;
+    height: 326px;
+}
+
+.cta-banner>button{
+    background-image: url(./Button.png);
+    width: 140px;
+    height: 36px;
+    border-radius: 2px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+
+.cta-tittle>h2{
+    font-family: Arial;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 54px;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+.cta-desc>p{
+    font-family: Arial;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding: 0;
+    line-height: 20px;
+    font-weight: 700;
+    width: 468px;
+    height: 40px;
+    margin-left: 80px;
+}
+
+
+
+/* ===== CSS FAQ ===== */
+
+.faq-wrap{
+    display: flex;
+    justify-content: flex;
+    gap: 250px;
+    margin-left: 136px;
+}
+.faq-tittle>h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: arial;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+.faq-desc{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: arial;
+    line-height: 20px;
+}
+.faqq{
+    list-style: none;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Arial;
+    margin-left: 150px;
+}
+
+.faqq>li{
+    width: 668px;
+    height: 56px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    padding-left: 24px;
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    margin: 16px;
+}
+
+/* ===== CSS Footer ===== */
+.footer{
+    display: flex;
+    gap: 86px;
+    margin-top: 150px;
+}
+
+.address{
+    font-size: 14px;
+    font-family: arial;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 136px;
+}
+
+.navigasi{
+    list-style: none;
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    
+}
+
+.navigasi>li{
+    margin-top: 16px;
+}
+
+.title>h{
+    font-family: arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.sosmed{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+
